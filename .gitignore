@@ -2,3 +2,4 @@
 .idea
 .ibdata1
 aria_log*
+./mariadb/

@@ -4,7 +4,6 @@
 
 - [Description](#Description)
 - [How to install](#How-to-install)
-- [How to use this](#How-to-use)
 - [Credits](#Credits)
 - [Author](#Author)
 
@@ -25,13 +24,19 @@ In order to use the full functionality of this package, you`ll need a couple of 
 ## How to install
 1. git clone https://github.com/ministrare/laradock-starters-template.git
 1. git submodule update --recursive --remote
-1.
-
-## How to use this
-1. 
-1. 
-1. 
-
+1. Open terminal and execute the following commands:
+    ```
+    cp .env.example-laradock laradock/.env
+    cp docker-compose-laradock-example.yml laradock/docker-compose.yml
+    cp .env.example-laravel laravel/.env
+    cd laradock
+    docker-compose up -d nginx mariadb phpmyadmin
+    docker exec -it laradock_project_workspace_1 bash
+    composer install
+    php artisan key:generate
+    php artisan migrate
+    ```
+1. Open your browser and go to localhost.
 
 ## Credits
 Special thanks to Laravel Team!
