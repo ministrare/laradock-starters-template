@@ -19,9 +19,9 @@ This project consist off a ready to use:
 ## How to install
 
 ## How to use this
-1.
-1.
-1.
+1. git clone https://github.com/ministrare/laradock-starters-template.git
+1. git submodule update --recursive --remote
+1. 
 
 
 ## Credits
