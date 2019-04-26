@@ -1,2 +1,4 @@
 # General
 .idea
+.ibdata1
+aria_log*
