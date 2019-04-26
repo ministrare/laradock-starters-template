@@ -16,11 +16,20 @@ This project consist off a ready to use:
     - [phpmyadmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin)
 - [Laravel](https://github.com/laravel/laravel) - php framework project folder
 
-## How to install
+## Dependencies
+In order to use the full functionality of this package, you`ll need a couple of programs already installed on your machine:
+- [Github]()
+- [Docker]()
 
-## How to use this
+
+## How to install
 1. git clone https://github.com/ministrare/laradock-starters-template.git
 1. git submodule update --recursive --remote
+1.
+
+## How to use this
+1. 
+1. 
 1. 
 
 
